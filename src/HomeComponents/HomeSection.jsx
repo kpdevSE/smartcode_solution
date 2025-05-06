@@ -1,19 +1,21 @@
 import
 {
     Card,
-    CardContent,
     CardDescription,
     CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
-import { ArrowRight, ChevronRight } from "lucide-react"
+import { ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-
+import HeroImage from '../assets/heroimage.jpg'
+import wtsapp from '../assets/WhatsAppButtonGreenMedium.png'
+import { FaWhatsapp } from "react-icons/fa";
 
 
 export default function HomeSection()
 {
+
     return (
         <div className="py-2">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -26,17 +28,12 @@ export default function HomeSection()
                         to help businesses thrive in the digital landscape.
                     </p>
                     <div className="flex flex-wrap gap-4">
-                        <Button className="flex items-center">
-                            Our Services <ArrowRight className="ml-2" size={16} />
-                        </Button>
-                        <Button variant="outline" className="flex items-center">
-                            View Projects <ArrowRight className="ml-2" size={16} />
-                        </Button>
+                        <a href="https://wa.me/+94715644565" target="_blank"> <Button src={wtsapp} className="cursor-pointer" ><FaWhatsapp />  Chat With WhatsApp</Button></a>
                     </div>
                 </div>
                 <div className="bg-gray-100 rounded-lg p-6">
                     <img
-                        src="/api/placeholder/600/400"
+                        src={HeroImage}
                         alt="Software Development"
                         className="w-full h-auto rounded-lg"
                     />

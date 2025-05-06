@@ -4,7 +4,8 @@ import
 } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Mail } from "lucide-react";
-
+import Lahiru from '../assets/lahiru.jpg'
+import Pasindu from '../assets/pasindu.jpeg'
 
 
 export default function TeamSection()
@@ -14,16 +15,18 @@ export default function TeamSection()
         {
             name: "Kanishka Pasindu Mudithananda",
             role: "CEO & Founder",
+            position: "Fullstack Software Engineer,Web Developer",
             bio: "Completed Higher Diploma in Computing and Software Engineering at Cardiff Metropolitan University in UK. Currently following a BSc in Computing and Software Engineering.",
             email: "kanishkapasindu6@gmail.com",
-            image: "/api/placeholder/300/300"
+            image: Pasindu
         },
         {
             name: "Lahiru Lakshan Liyanage",
             role: "Co-Founder",
-            bio: "Experienced software developer with expertise in full-stack development and system architecture.",
+            position: "Frontend Developer,UI/UX Designer",
+            bio: "Completed Higher Diploma in Computing and Software Engineering at Cardiff Metropolitan University in UK. Currently following a BSc in Computing and Software Engineering.",
             email: "lahiru@example.com",
-            image: "/api/placeholder/300/300"
+            image: Lahiru
         }
     ];
     return (
@@ -44,7 +47,8 @@ export default function TeamSection()
                             <div className="md:col-span-2 p-6">
                                 <h3 className="text-xl font-semibold">{member.name}</h3>
                                 <p className="text-gray-600 mb-4">{member.role}</p>
-                                <p className="text-gray-700 mb-4">{member.bio}</p>
+                                <h2 className="text-md font-semibold">{member.position}</h2>
+                                <p className="text-gray-700 mb-4 mt-4">{member.bio}</p>
                                 <div className="flex items-center">
                                     <Mail size={16} className="mr-2 text-gray-600" />
                                     <span className="text-gray-600">{member.email}</span>
@@ -61,7 +65,7 @@ export default function TeamSection()
                     We're always looking for talented individuals to join our growing team. If you're passionate about
                     technology and innovation, we'd love to hear from you.
                 </p>
-                <Button>View Open Positions</Button>
+                <Button>Comming Soon</Button>
             </div>
         </div>
     )

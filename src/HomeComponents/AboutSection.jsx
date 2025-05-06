@@ -5,6 +5,7 @@ import
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
+import CompanyHistory from '../assets/history.jpg'
 
 export default function AboutSection()
 {
@@ -16,7 +17,7 @@ export default function AboutSection()
                 <div>
                     <h2 className="text-2xl font-semibold mb-4">Our Story</h2>
                     <p className="text-gray-600 mb-4">
-                        Founded by Kanishka Pasindu Mudithananda and Lahiru Lakshan Liyanage, DevStudio was born
+                        Founded by Kanishka Pasindu Mudithananda and Lahiru Lakshan Liyanage, Zentrix was born
                         from a passion for creating exceptional software solutions that make a difference.
                     </p>
                     <p className="text-gray-600 mb-4">
@@ -31,9 +32,9 @@ export default function AboutSection()
                 </div>
                 <div className="bg-gray-100 rounded-lg p-6">
                     <img
-                        src="/api/placeholder/600/400"
+                        src={CompanyHistory}
                         alt="Company History"
-                        className="w-full h-auto rounded-lg"
+                        className="w-full lg:h-[400px] md:h-auto h-auto rounded-lg"
                     />
                 </div>
             </div>

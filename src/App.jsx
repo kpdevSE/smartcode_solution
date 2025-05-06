@@ -10,6 +10,9 @@ import ProjectDetailSection from "./HomeComponents/ProjectDetailsSection";
 import EnglishAcademy from './assets/English_Academy.png'
 import Eventz from './assets/Eventz.png'
 import AiTrip from './assets/Aitrip.png'
+import Hms from './assets/hms-front.png'
+import Fitzone from './assets/fitzone.png'
+import Kpdev from './assets/portfolio.png'
 
 // Mock project data
 const projectsData = [
@@ -84,71 +87,71 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Corporate Branding Website",
-    description: "Professional website redesign with custom animations and content management",
-    image: "/api/placeholder/600/400",
-    category: "Custom Portfolio",
-    technologies: ["React", "Framer Motion", "Tailwind CSS", "Headless CMS"],
+    title: "Hospital Management System",
+    description: "A complete web-based hospital management system with custom UI and admin control",
+    image: Hms,
+    category: "Technical Assignments",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     keyFeatures: [
-      "Dynamic content management system for marketing team updates",
-      "Seamless page transitions and micro-interactions",
-      "Integrated blog platform with SEO optimization tools",
-      "Multi-language support for global market presence",
-      "Performance-optimized image and video delivery"
+      "Patient registration and appointment scheduling",
+      "Role-based access for doctors, nurses, and administrators",
+      "Real-time medical records and lab result updates",
+      "Billing and invoice management system",
+      "Dashboard analytics for hospital operations"
     ],
     projectDetails: {
-      clientName: "Vertex Industries",
-      duration: "3 months",
-      teamSize: 3,
-      challenge: "A multinational corporation needed to refresh their digital presence to reflect their updated brand identity while improving site performance and content management capabilities.",
-      solution: "We created a modern React application with Framer Motion animations that showcases the brand's values through interactive storytelling. The headless CMS integration gives their team complete control over content without compromising site performance.",
-      outcome: "The redesigned site achieved a 96% performance score on Google Lighthouse, increased average session duration by 74%, and reduced bounce rates by 23%. The marketing team now publishes content 5x faster than with their previous system."
+      clientName: "Private Client",
+      duration: "2 Weeks",
+      teamSize: 1,
+      challenge: "The hospital needed an all-in-one platform to digitize their operations, reduce paperwork, and provide quick access to patient data for better decision-making.",
+      solution: "We developed a fully responsive web-based Hospital Management System using PHP and MySQL. It features modules for patient handling, appointments, billing, and staff management with a user-friendly admin interface.",
+      outcome: "The hospital reported a 60% reduction in administrative workload, improved patient record accuracy, and significantly faster access to medical history and reports. Staff efficiency and patient satisfaction increased noticeably after implementation."
     }
   },
   {
     id: 5,
-    title: "Task Management Application",
-    description: "Team collaboration tool with real-time updates and progress tracking",
-    image: "/api/placeholder/600/400",
-    category: "Software Development",
-    technologies: ["React", "Redux", "Socket.io", "MongoDB", "Node.Js", "Express.Js"],
+    title: "Gym Management System (FitZone)",
+    description: "Comprehensive web-based system for managing gym memberships, trainers, and workouts",
+    image: Fitzone,
+    category: "Technical Assignments",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Bootstrap"],
     keyFeatures: [
-      "Real-time task updates and team collaboration",
-      "Customizable workflow automation and triggers",
-      "Time tracking with detailed productivity analytics",
-      "File sharing and version control integration",
-      "Kanban, list, and calendar views for different work styles"
+      "Member registration and subscription management",
+      "Trainer scheduling and session booking",
+      "Real-time workout tracking and progress monitoring",
+      "Automated billing and payment notifications",
+      "Admin dashboard with attendance and revenue analytics"
     ],
     projectDetails: {
-      clientName: "Agile Works",
-      duration: "5 months",
-      teamSize: 4,
-      challenge: "A growing agency needed to streamline project management across distributed teams while maintaining visibility into project progress and resource allocation.",
-      solution: "We developed a React/Redux application with Socket.io for real-time updates that adapts to different team workflows. The system features automated notifications and comprehensive reporting to help managers identify bottlenecks quickly.",
-      outcome: "Teams reported a 27% increase in on-time project delivery and a 35% improvement in accurate time estimation. The application now supports over 200 active users across 12 departments with plans for public release as a SaaS product."
+      clientName: "Private Client",
+      duration: "2 Weeks",
+      teamSize: 1,
+      challenge: "The client needed an all-in-one solution to manage their growing gym membership base, streamline trainer schedules, and digitize manual processes like billing and attendance.",
+      solution: "We built a modular Gym Management System using PHP and MySQL, with a responsive Bootstrap frontend. The system includes role-based access for admins, trainers, and members, and allows real-time tracking of member progress and class attendance.",
+      outcome: "The gym saw a 40% reduction in manual administrative tasks and a 50% increase in member engagement through progress tracking features. Online registration and scheduling increased monthly sign-ups by 30% within the first quarter of deployment."
     }
   },
   {
     id: 6,
-    title: "Mobile Banking App",
-    description: "Secure financial application with transaction history and budgeting features",
-    image: "/api/placeholder/600/400",
+    title: "Portfolio Site (KPDEV)",
+    description: "A modern and responsive developer portfolio showcasing projects, skills, and services with an integrated contact system.",
+    image: Kpdev,
     category: "Custom Portfolio",
     technologies: ["React Native", "Node.js", "PostgreSQL", "Auth0"],
     keyFeatures: [
-      "Biometric authentication and advanced security protocols",
-      "Real-time transaction notifications and fraud alerts",
-      "Automated categorization of expenses for budget tracking",
-      "Bill payment scheduling and recurring transaction management",
-      "Goal-based savings with visual progress indicators"
+      "Interactive project gallery with detailed case studies",
+      "Responsive design for mobile, tablet, and desktop",
+      "Integrated contact form with real-time validation and email delivery",
+      "Secure login system for managing private portfolio content",
+      "Downloadable resume and dynamic skill section with proficiency bars"
     ],
     projectDetails: {
-      clientName: "Community First Credit Union",
-      duration: "7 months",
-      teamSize: 5,
-      challenge: "A regional credit union needed to modernize their mobile banking experience to meet customer expectations while ensuring maximum security and compliance with financial regulations.",
-      solution: "We built a React Native application that works seamlessly across iOS and Android devices with a focus on security and user experience. The app includes budgeting tools and financial wellness features to differentiate from competitors.",
-      outcome: "Mobile banking engagement increased by 64% within three months of launch. Customer service calls decreased by 27% as users were able to self-serve through the app. The credit union has seen a 15% increase in new account openings attributed to the improved digital experience."
+      clientName: "Personal Developer Portfolio – KPDEV",
+      duration: "1 month",
+      teamSize: 1,
+      challenge: "The goal was to create a professional and visually engaging portfolio to showcase software projects, skills, and services for potential clients and employers.",
+      solution: "We designed and developed a fully responsive personal portfolio using React Native, featuring smooth animations, a clean layout, and secure integration with contact forms and external project links. The app highlights key projects, includes an 'About Me' section, and offers downloadable resumes.",
+      outcome: "The portfolio led to a 75% increase in client inquiries and helped secure freelance opportunities within the first two weeks of launch. Visitors praised the intuitive design and easy navigation across mobile platforms."
     }
   }
 ];
@@ -336,7 +339,7 @@ const App = () =>
       <header className="bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <div className="font-bold text-2xl text-black">Dev<span className="text-gray-600">Studio</span></div>
+            <div className="font-bold text-2xl text-black">ZEN<span className="text-gray-600">TRIX</span></div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-6">
@@ -344,7 +347,7 @@ const App = () =>
                 <button
                   key={section}
                   onClick={() => setActiveSection(section)}
-                  className={`capitalize ${activeSection === section ? 'text-black font-semibold' : 'text-gray-600 hover:text-black'}`}
+                  className={`cursor-pointer capitalize ${activeSection === section ? 'text-black font-semibold' : 'text-gray-600 hover:text-black'}`}
                 >
                   {section}
                 </button>
@@ -372,7 +375,7 @@ const App = () =>
                       setActiveSection(section);
                       setIsNavOpen(false);
                     }}
-                    className={`capitalize ${activeSection === section ? 'text-black font-semibold' : 'text-gray-600'}`}
+                    className={`capitalize cursor-pointer ${activeSection === section ? 'text-black font-semibold' : 'text-gray-600'}`}
                   >
                     {section}
                   </button>
@@ -393,7 +396,7 @@ const App = () =>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-bold text-xl mb-4">Dev<span className="text-gray-400">Studio</span></h3>
+              <h3 className="font-bold text-xl mb-4">ZEN<span className="text-gray-400">TRIX</span></h3>
               <p className="text-gray-300">Innovative software solutions tailored for your business needs.</p>
             </div>
             <div>
@@ -420,7 +423,7 @@ const App = () =>
                 </li>
                 <li className="flex items-center">
                   <Phone size={16} className="mr-2" />
-                  <span>+94 XXXXXXXXX</span>
+                  <span>+94 715644565</span>
                 </li>
                 <li className="flex items-center">
                   <MapPin size={16} className="mr-2" />
@@ -438,7 +441,7 @@ const App = () =>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} DevStudio. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Zentrix. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -8,6 +8,18 @@ import
     CardTitle,
 } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import wtsapp from '../assets/WhatsAppButtonGreenMedium.png'
+
+import
+{
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogFooter,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "@/components/ui/dialog"
 
 import { ChevronRight } from "lucide-react"
 
@@ -53,7 +65,23 @@ export default function ServiceSection()
                             </ul>
                         </CardContent>
                         <CardFooter>
-                            <Button className="w-full">Learn More</Button>
+                            <Dialog>
+                                <DialogTrigger asChild>
+                                    <Button className="w-full">Learn More</Button>
+                                </DialogTrigger>
+                                <DialogContent className="sm:max-w-[425px]">
+                                    <DialogHeader>
+                                        <DialogTitle>Learn More About packages</DialogTitle>
+                                        <DialogDescription>
+                                            Contact us using WhatsApp to know about full details of packages
+                                        </DialogDescription>
+                                    </DialogHeader>
+                                    <div className="grid gap-4 py-4">
+                                        <a href="https://wa.me/+94715644565" target="_blank"> <img src={wtsapp} alt="wts app" className="mt-2 lg:w-[75%] mx-auto h-auto md:w-[75%] w-[1005]" /></a>
+                                    </div>
+
+                                </DialogContent>
+                            </Dialog>
                         </CardFooter>
                     </Card>
                 ))}
