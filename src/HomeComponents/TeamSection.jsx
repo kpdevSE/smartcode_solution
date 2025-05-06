@@ -25,7 +25,7 @@ export default function TeamSection()
             role: "Co-Founder",
             position: "Frontend Developer,UI/UX Designer",
             bio: "Completed Higher Diploma in Computing and Software Engineering at Cardiff Metropolitan University in UK. Currently following a BSc in Computing and Software Engineering.",
-            email: "lahiru@example.com",
+            email: "lahirufirst1@gmail.com",
             image: Lahiru
         }
     ];
