@@ -23,6 +23,7 @@ import AiTrip from "./assets/Aitrip.png";
 import Hms from "./assets/hms-front.png";
 import Fitzone from "./assets/fitzone.png";
 import Kpdev from "./assets/portfolio.png";
+import Pharmacy from "./assets/pharmacy.png";
 
 // Mock project data
 const projectsData = [
@@ -211,7 +212,7 @@ const projectsData = [
     title: "State Pharmaceutical Cooperation Management System",
     description:
       "Comprehensive web-based pharmaceutical management system for state cooperatives to manage medicine inventory, sales, and user operations with real-time analytics and role-based access control.",
-    image: "💊",
+    image: Pharmacy,
     category: "Software Development",
     technologies: ["ASP.NET", "C#", "SQL Server", "HTML", "CSS", "JavaScript"],
     keyFeatures: [
